@@ -13,18 +13,50 @@
 var entries = {
     'repository/components/default/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info': {
         add: [
-            ['com.google.guava', '31.1.0.jre', '../plugins/com.google.guava_31.1.0.jre.jar']
+            ['apache-zookeeper', '3.9.1.wso2v1', '../plugins/apache-zookeeper_3.9.1.wso2v1.jar']
         ],
         remove: [
-            ['com.google.guava', '27.0.0.jre', '../plugins/com.google.guava_27.0.0.jre.jar']
+            ['apache-zookeeper', '3.4.14', '../plugins/org.apache.hadoop.zookeeper_3.4.14.jar']
         ]
     },
-    'repository/components/control-plane/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info': {
+    'repository/components/api-devportal/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info': {
         add: [
-            ['com.google.guava', '31.1.0.jre', '../plugins/com.google.guava_31.1.0.jre.jar']
+            ['apache-zookeeper', '3.9.1.wso2v1', '../plugins/apache-zookeeper_3.9.1.wso2v1.jar']
         ],
         remove: [
-            ['com.google.guava', '27.0.0.jre', '../plugins/com.google.guava_27.0.0.jre.jar']
+            ['apache-zookeeper', '3.4.14', '../plugins/org.apache.hadoop.zookeeper_3.4.14.jar']
+        ]
+    },
+    'repository/components/api-key-manager/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info': {
+        add: [
+            ['apache-zookeeper', '3.9.1.wso2v1', '../plugins/apache-zookeeper_3.9.1.wso2v1.jar']
+        ],
+        remove: [
+            ['apache-zookeeper', '3.4.14', '../plugins/org.apache.hadoop.zookeeper_3.4.14.jar']
+        ]
+    },
+    'repository/components/api-publisher/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info': {
+        add: [
+            ['apache-zookeeper', '3.9.1.wso2v1', '../plugins/apache-zookeeper_3.9.1.wso2v1.jar']
+        ],
+        remove: [
+            ['apache-zookeeper', '3.4.14', '../plugins/org.apache.hadoop.zookeeper_3.4.14.jar']
+        ]
+    },
+    'repository/components/gateway-worker/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info': {
+        add: [
+            ['apache-zookeeper', '3.9.1.wso2v1', '../plugins/apache-zookeeper_3.9.1.wso2v1.jar']
+        ],
+        remove: [
+            ['apache-zookeeper', '3.4.14', '../plugins/org.apache.hadoop.zookeeper_3.4.14.jar']
+        ]
+    },
+    'repository/components/traffic-manager/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info': {
+        add: [
+            ['apache-zookeeper', '3.9.1.wso2v1', '../plugins/apache-zookeeper_3.9.1.wso2v1.jar']
+        ],
+        remove: [
+            ['apache-zookeeper', '3.4.14', '../plugins/org.apache.hadoop.zookeeper_3.4.14.jar']
         ]
     }
 };
